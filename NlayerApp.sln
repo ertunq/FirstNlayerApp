@@ -3,15 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlayer.Core", "Nlayer.Core\Nlayer.Core.csproj", "{22D323B9-3CA9-4C6E-9531-E0C78DCF4E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nlayer.Core", "Nlayer.Core\Nlayer.Core.csproj", "{22D323B9-3CA9-4C6E-9531-E0C78DCF4E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{B0A091E5-B785-4706-BCC4-1BD8E7234469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{B0A091E5-B785-4706-BCC4-1BD8E7234469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{CAB2FDE4-42BC-4A05-BF71-40C67B49B6B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{CAB2FDE4-42BC-4A05-BF71-40C67B49B6B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{69BF25C8-EB72-4E35-AF94-D80F79260520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{69BF25C8-EB72-4E35-AF94-D80F79260520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{CC73FDB1-9E06-48E5-BD5A-27FF5A4BDF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{CC73FDB1-9E06-48E5-BD5A-27FF5A4BDF25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nlayer.Caching", "Nlayer.Caching\Nlayer.Caching.csproj", "{330BAE6E-5A23-4229-A69D-A13FC02A831D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A078E2A-38BF-471B-B2B4-0AFD453A702D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +46,10 @@ Global
 		{CC73FDB1-9E06-48E5-BD5A-27FF5A4BDF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC73FDB1-9E06-48E5-BD5A-27FF5A4BDF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC73FDB1-9E06-48E5-BD5A-27FF5A4BDF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330BAE6E-5A23-4229-A69D-A13FC02A831D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330BAE6E-5A23-4229-A69D-A13FC02A831D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330BAE6E-5A23-4229-A69D-A13FC02A831D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330BAE6E-5A23-4229-A69D-A13FC02A831D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
