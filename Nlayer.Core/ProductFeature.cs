@@ -13,7 +13,7 @@ namespace Nlayer.Core
         public int Height { get; set; }
         public int Width { get; set; }
         public int ProductId { get; set; }
-        public Category Category {get;set;}
+        public Product Product {get;set;}
 
 
     }
