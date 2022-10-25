@@ -13,7 +13,7 @@ namespace NLayer.Repository.Seeds
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            builder.HasData(new Category { Id = 1, Name = "Kalemler" }, new{ Id = 2, Name = "Defterler" },new { Id = 3, Name = "Kitaplar" });
+            builder.HasData(new Category { Id = 1, Name = "Kalemler", CreatedDate = DateTime.Now }, new{ Id = 2, Name = "Defterler", CreatedDate = DateTime.Now},new { Id = 3, Name = "Kitaplar", CreatedDate = DateTime.Now });
         }
     }
 }
